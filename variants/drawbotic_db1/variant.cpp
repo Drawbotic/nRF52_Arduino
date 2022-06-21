@@ -19,26 +19,70 @@
 */
 
 #include "variant.h"
-
 #include "wiring_constants.h"
 #include "wiring_digital.h"
 #include "nrf.h"
 
 const uint32_t g_ADigitalPinMap[] =
 {
-  // D0 .. D13
-  45,  // D0  is P1.13 (LED1)
-  43,  // D1  is P1.11 (LED2)
-  15,  // D2  is P0.15 (Button)
+  //Digital Pins
+  42,   //00: M1_DIR_A
+  43,   //01: M1_DIR_B
+  44,   //02: M2_DIR_A
+  45,   //03: M2_DIR_B
+  37,   //04: STAT_DOUT
+  39,   //05: RGB_DOUT
+  27,   //06: M1_E_A
+  26,   //07: M1_E_B
+  14,   //08: M2_E_A
+  12,   //09: M2_E_B
+  38,   //10: LED_EN
+  6,    //11: TOF1_INT
+  8,    //12: TOF2_INT
+  41,   //13: TOF3_INT
+  7,    //14: TOF1_EN
+  40,   //15: TOF2_EN
+  11,   //16: TOF3_EN
+  10,   //17: BATT_LVL1
+  9,    //18: BATT_LVL2
+  32,   //19: BATT_LVL3
+  22,   //20: BATT_LVL4
+  15,   //21: HOST_INT_1
+  17,   //22: HOST_INT_2
+  33,   //23: IMU_INT_1
+  35,   //24: IMU_INT_2
+  
+  //PWM Pins
+  46,   //25: M1_PWM
+  47,   //26: M2_PWM
+  36,   //27: BUZZER
+  34,   //28: SERVO_PWM
+
+  //Analog Pins
+  2,    //29: IR1
+  3,    //30: IR2
+  4,    //31: IR3
+  5,    //32: IR4
+  28,   //33: IR5
+  29,   //34: V_DIV_BATT
+  30,   //35: MIC
+
+  //I2C Pins
+  25,   //36: SDA
+  24,   //37: SCL
+  16,   //38: SDA_PERIPH
+  13,   //39: SCL_PERIPH
+
+  //SPI Pins
+  19,   //40: F_MISO
+  20,   //41: F_SCK
+  21,   //42: F_MOSI
+  23,   //43: F_CS
+  // Total Size: 44
 };
 
 void initVariant()
 {
-  // LED1 & LED2
-  pinMode(PIN_LED1, OUTPUT);
-  ledOff(PIN_LED1);
-
-  pinMode(PIN_LED2, OUTPUT);
-  ledOff(PIN_LED2);
+  
 }
 
