@@ -71,61 +71,59 @@ static const uint8_t A6  = PIN_A6 ;
 #define ADC_RESOLUTION    14
 
 // Other pins
-#define M1_DIR_A    (00)
-#define M1_DIR_B    (01)
-#define M2_DIR_A    (02)
-#define M2_DIR_B    (03)
-#define STAT_DOUT   (04)
-#define RGB_DOUT    (05)
-#define M1_E_A      (06)
-#define M1_E_B      (07)
-#define M2_E_A      (08)
-#define M2_E_B      (09)
-#define LED_EN      (10)
-#define TOF1_INT    (11)
-#define TOF2_INT    (12)
-#define TOF3_INT    (13)
-#define TOF1_EN     (14)
-#define TOF2_EN     (15)
-#define TOF3_EN     (16)
-#define BATT_LVL1   (17)
-#define BATT_LVL2   (18)
-#define BATT_LVL3   (19)
-#define BATT_LVL4   (20)
-#define HOST_INT_1  (21)
-#define HOST_INT_2  (22)
-#define IMU_INT_1   (23)
-#define IMU_INT_2   (24)
-#define M1_PWM      (25)
-#define M2_PWM      (26)
-#define BUZZER      (27)
-#define SERVO_PWM   (28)
-#define LINE1       (29)
-#define LINE2       (30)
-#define LINE3       (31)
-#define LINE4       (32)
-#define LINE5       (33)
-#define V_DIV_BATT  (34)
-#define MIC         (35)
-#define SDA         (36)
-#define SCL         (37)
-#define SDA_PERIPH  (38)
-#define SCL_PERIPH  (39)
-#define F_MISO      (40)
-#define F_SCK       (41)
-#define F_MOSI      (42)
-#define F_CS        (43)
+#define M1_DIR_A    0
+#define M1_DIR_B    1
+#define M2_DIR_A    2
+#define M2_DIR_B    3
+#define STAT_DOUT   4
+#define RGB_DOUT    5
+#define M1_E_A      6
+#define M1_E_B      7
+#define M2_E_A      8
+#define M2_E_B      9
+#define LED_EN      10
+#define TOF1_INT    11
+#define TOF2_INT    12
+#define TOF3_INT    13
+#define TOF1_EN     14
+#define TOF2_EN     15
+#define TOF3_EN     16
+#define BATT_LVL1   17
+#define BATT_LVL2   18
+#define BATT_LVL3   19
+#define BATT_LVL4   20
+#define HOST_INT_1  21
+#define HOST_INT_2  22
+#define IMU_INT_1   23
+#define IMU_INT_2   24
+#define M1_PWM      25
+#define M2_PWM      26
+#define BUZZER      27
+#define SERVO_PWM   28
+#define LINE1       29
+#define LINE2       30
+#define LINE3       31
+#define LINE4       32
+#define LINE5       33
+#define V_DIV_BATT  34
+#define MIC         35
+#define SDA_PERIPH  38
+#define SCL_PERIPH  39
+#define F_MISO      40
+#define F_SCK       41
+#define F_MOSI      42
+#define F_CS        43
 
 /*
  * SPI Interfaces
  */
 #define SPI_INTERFACES_COUNT 1
 
-#define PIN_SPI_MISO         (40)
-#define PIN_SPI_MOSI         (42)
-#define PIN_SPI_SCK          (41)
+#define PIN_SPI_MISO         40
+#define PIN_SPI_MOSI         42
+#define PIN_SPI_SCK          41
 
-static const uint8_t SS   = (43);
+static const uint8_t SS   = 43;
 static const uint8_t MOSI = PIN_SPI_MOSI ;
 static const uint8_t MISO = PIN_SPI_MISO ;
 static const uint8_t SCK  = PIN_SPI_SCK ;
@@ -135,10 +133,10 @@ static const uint8_t SCK  = PIN_SPI_SCK ;
  */
 #define WIRE_INTERFACES_COUNT 2
 
-#define PIN_WIRE_SDA         (36)
-#define PIN_WIRE_SCL         (37)
-#define PIN_WIRE_SDA2        (38)
-#define PIN_WIRE_SCL2        (39)
+#define PIN_WIRE_SDA         36
+#define PIN_WIRE_SCL         37
+#define PIN_WIRE1_SDA        38
+#define PIN_WIRE1_SCL        39
 
 // On-board SPI Flash
 #define EXTERNAL_FLASH_DEVICES   S25FL064L
@@ -147,8 +145,8 @@ static const uint8_t SCK  = PIN_SPI_SCK ;
 // Bad things happen if the serial pins aren't defined. Instead
 // define them with an invalid pin number
 // Serial
-#define PIN_SERIAL1_RX       (45)
-#define PIN_SERIAL1_TX       (45)
+#define PIN_SERIAL1_RX       45
+#define PIN_SERIAL1_TX       45
 
 #ifdef __cplusplus
 }

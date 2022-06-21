@@ -25,7 +25,7 @@ db1.upload.maximum_data_size=237568
 # Build
 db1.build.mcu=cortex-m4
 db1.build.f_cpu=64000000
-db1.build.board=NRF52840_FEATHER
+db1.build.board=DRAWBOTIC_DB1
 db1.build.core=nRF5
 db1.build.variant=drawbotic_db1
 db1.build.usb_manufacturer="Drawbotic"
