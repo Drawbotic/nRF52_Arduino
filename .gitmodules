@@ -4,3 +4,15 @@
 [submodule "libraries/Adafruit_TinyUSB_Arduino"]
 	path = libraries/Adafruit_TinyUSB_Arduino
 	url = https://github.com/adafruit/Adafruit_TinyUSB_Arduino.git
+[submodule "libraries/Drawbotic_VEML6040"]
+	path = libraries/Drawbotic_VEML6040
+	url = git@github.com:Drawbotic/Drawbotic_VEML6040.git
+[submodule "libraries/Adafruit_NeoPixel"]
+	path = libraries/Adafruit_NeoPixel
+	url = git@github.com:adafruit/Adafruit_NeoPixel.git
+[submodule "libraries/vl53l0x-arduino"]
+	path = libraries/vl53l0x-arduino
+	url = git@github.com:pololu/vl53l0x-arduino.git
+[submodule "libraries/Drawbotic-Arduino"]
+	path = libraries/Drawbotic-Arduino
+	url = git@github.com:Drawbotic/Drawbotic-Arduino.git
