@@ -112,7 +112,7 @@ void adafruit_soc_task(void* arg);
 static void bluefruit_blinky_cb( TimerHandle_t xTimer )
 {
   (void) xTimer;
-  digitalToggle(LED_BLUE);
+  //digitalToggle(LED_BLUE);
 }
 
 static void nrf_error_cb(uint32_t id, uint32_t pc, uint32_t info)
@@ -953,7 +953,7 @@ void AdafruitBluefruit::_setConnLed (bool on_off)
 {
   if (_led_conn)
   {
-    digitalWrite(LED_BLUE, on_off ? LED_STATE_ON : (1-LED_STATE_ON) );
+    //digitalWrite(LED_BLUE, on_off ? LED_STATE_ON : (1-LED_STATE_ON) );
   }
 }
 

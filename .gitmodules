@@ -16,3 +16,6 @@
 [submodule "libraries/Drawbotic-Arduino"]
 	path = libraries/Drawbotic-Arduino
 	url = git@github.com:Drawbotic/Drawbotic-Arduino.git
+[submodule "libraries/Drawbotic-Navigation-Arduino"]
+	path = libraries/Drawbotic-Navigation-Arduino
+	url = git@github.com:Drawbotic/Drawbotic-Navigation-Arduino.git
