@@ -94,8 +94,8 @@ static const uint8_t A6  = PIN_A6 ;
 #define BATT_LVL4   20
 #define HOST_INT_1  21
 #define HOST_INT_2  22
-#define IMU_INT_1   23
-#define IMU_INT_2   24
+#define IMU_INT     23
+#define IMU_RESET   24
 #define M1_PWM      25
 #define M2_PWM      26
 #define BUZZER      27

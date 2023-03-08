@@ -49,8 +49,8 @@ const uint32_t g_ADigitalPinMap[] =
   22,   //20: BATT_LVL4
   15,   //21: HOST_INT_1
   17,   //22: HOST_INT_2
-  33,   //23: IMU_INT_1
-  35,   //24: IMU_INT_2
+  33,   //23: IMU_INT
+  35,   //24: IMU_RESET
   
   //PWM Pins
   46,   //25: M1_PWM
